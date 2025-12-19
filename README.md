@@ -68,13 +68,3 @@ my-quiz-app/
 
 Estimated **~8 hours** (design, implementing components, wiring navigation, animations, assets, and testing). This is an approximate value — adjust if you want an exact time log.
 
----
-
-### Notes / Next steps / Recommendations
-
-- Consider extracting inline style values into reusable Tailwind utility classes or components to reduce repetition.
-- Add unit tests (Jest + React Testing Library) for `Question` and `ResultPage` logic.
-- Improve accessibility: keyboard focus states for navigation buttons and aria-live region for the animated score.
-- Make the layout responsive — currently sizes are heavily pixel-based to match a fixed 1920×1080 design.
-- If deploying, configure environment variables and set proper base path for Vite.
-
